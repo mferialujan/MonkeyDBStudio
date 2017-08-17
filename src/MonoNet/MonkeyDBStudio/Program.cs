@@ -1,6 +1,7 @@
 ﻿using System;
 using Gtk;
 
+
 namespace MonkeyDBStudio
 {
 	class MainClass
