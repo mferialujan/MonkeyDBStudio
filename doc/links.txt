@@ -1,2 +1,3 @@
 http://www.mono-project.com/docs/gui/gtksharp/widgets/treeview-tutorial/
 https://www.kksou.com/php-gtk2/sample-codes/copy-row-data-from-GtkTreeView-using-GtkClipboard-Part-2-copy-multiple-rows.php
+https://www.codeproject.com/Articles/26161/Custom-controls-with-MonoDevelop-and-GTK
