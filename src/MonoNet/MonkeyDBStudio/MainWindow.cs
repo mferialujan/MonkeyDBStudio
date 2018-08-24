@@ -31,7 +31,7 @@ public partial class MainWindow : Gtk.Window
 		try
 		{
 			DriverManager.registerDriver(new com.informix.jdbc.IfxDriver());
-			conn = DriverManager.getConnection("jdbc:informix-sqli://bsiuxdev:2107/bdicent:informixserver=deve07", "informix", "develop");
+			conn = DriverManager.getConnection("jdbc:informix-sqli://servermachineorip:port/database:informixserver=server", "user", "password");
 			conn.setAutoCommit(false);
 			//preparedStatement = conn.prepareStatement(sql, ResultSet.__Fields.TYPE_SCROLL_INSENSITIVE, ResultSet.__Fields.CONCUR_READ_ONLY);
 			stmt = conn.createStatement(ResultSet.__Fields.TYPE_SCROLL_INSENSITIVE, ResultSet.__Fields.CONCUR_READ_ONLY);
@@ -79,5 +79,6 @@ public partial class MainWindow : Gtk.Window
 
 			//throw ex;
 		}
-	}
+
+	}
 }
